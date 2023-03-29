@@ -14,9 +14,9 @@ import java.util.List;
  */
 @Service
 public class RateServiceImpl implements RateService{
+    //比例数据库mapper
     @Autowired
     RateRepository repository;
-
     @Override
     public void save(Rate rate) {
         repository.save(rate);
