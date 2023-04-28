@@ -3,7 +3,7 @@
 */
 
 (async () => {
-  // let args = getArgs();
+  let args = getArgs();
   // let info = await getDataInfo(args.url);
   // if (!info) $done();
   // let resetDayLeft = data.bw_reset_day_of_month
